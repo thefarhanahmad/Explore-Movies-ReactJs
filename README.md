@@ -31,7 +31,7 @@ Welcome to the Explore Movies website project! This project is a React-based web
 
    ```bash
    git clone https://github.com/thefarhanahmad/Explore-Movies-ReactJs.git
-   cd explore-movies
+   cd explore-movies-ReactJs
 
    ```
 
@@ -51,8 +51,7 @@ VITE_API_URL= "https://dummyapi.online/api/movies"
 
 ### Usage
 
-````bash
+```bash
   npm run dev
-  ```
 
-````
+```

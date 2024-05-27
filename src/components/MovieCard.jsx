@@ -11,7 +11,7 @@ import toast from "react-hot-toast";
 const MovieCard = ({ movie }) => {
   const dispatch = useDispatch();
   const favoriteMovies = useSelector((state) => state.favoriteMovies);
-  console.log("favorite movies : ", favoriteMovies);
+  // console.log("favorite movies : ", favoriteMovies);
 
   const addToFavorite = (movie) => {
     dispatch(addFavoriteMovie(movie));
